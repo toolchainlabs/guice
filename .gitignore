@@ -12,3 +12,6 @@ bin/
 *.iml
 *.ipr
 extensions/**/build/
+
+.pants.d
+.pids

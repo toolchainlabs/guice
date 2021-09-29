@@ -1,0 +1,22 @@
+[GLOBAL]
+pants_version = "2.11.0.dev2"
+backend_packages.add = [
+  "pants.backend.experimental.java",
+  "pants.backend.experimental.java.debug_goals",
+]
+build_patterns = ["BUILD.pants"]
+
+[source]
+root_patterns = ["/*/src", "/*/test"]
+
+[jvm.resolves]
+"core" = "core/core.lockfile"
+"extensions" = "extensions/extensions.lockfile"
+
+[tailor]
+build_file_name = "BUILD.pants"
+
+[anonymous-telemetry]
+enabled = false
+#repo_id = "E6C010FF-E41B-4AFE-9B6C-05F85B219046"
+

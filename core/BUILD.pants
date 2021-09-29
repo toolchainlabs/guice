@@ -1,0 +1,99 @@
+jvm_artifact(
+  name = "javax.inject_javax.inject",
+  group = "javax.inject",
+  artifact = "javax.inject",
+  version = "1",
+  resolve = "core",
+)
+
+jvm_artifact(
+  name = "aopalliance_aopalliance",
+  group = "aopalliance",
+  artifact = "aopalliance",
+  version = "1.0",
+  resolve = "core",
+)
+
+jvm_artifact(
+  name = "com.google.guava_guava",
+  group = "com.google.guava",
+  artifact = "guava",
+  version = "31.0.1-jre",
+  resolve = "core",
+)
+
+jvm_artifact(
+  name = "org.ow2.asm_asm",
+  group = "org.ow2.asm",
+  artifact = "asm",
+  version = "9.2",
+  resolve = "core",
+)
+
+jvm_artifact(
+  name = "javax.inject_javax.inject-tck",
+  group = "javax.inject",
+  artifact = "javax.inject-tck",
+  version = "1",
+  # scope = "test",
+  resolve = "core",
+)
+
+jvm_artifact(
+  name = "com.google.guava_guava-testlib",
+  group = "com.google.guava",
+  artifact = "guava-testlib",
+  version = "31.0.1-jre",
+  # scope = "test",
+  resolve = "core",
+)
+
+jvm_artifact(
+  name = "org.springframework_spring-beans",
+  group = "org.springframework",
+  artifact = "spring-beans",
+  version = "3.0.5.RELEASE",
+  # scope = "test",
+  resolve = "core",
+)
+
+jvm_artifact(
+  name = "biz.aQute_bnd",
+  group = "biz.aQute",
+  artifact = "bnd",
+  version = "0.0.384",
+  # scope = "test",
+  resolve = "core",
+)
+
+jvm_artifact(
+  name = "org.apache.felix_org.apache.felix.framework",
+  group = "org.apache.felix",
+  artifact = "org.apache.felix.framework",
+  version = "3.0.5",
+  packages=[
+    "org.osgi.framework.**",
+  ],
+  # scope = "test",
+  resolve = "core",
+)
+
+jvm_artifact(
+  name = "com.google.truth_truth",
+  group = "com.google.truth",
+  artifact = "truth",
+  version = "0.45",
+  # scope = "test",
+  resolve = "core",
+)
+
+jvm_artifact(
+  name = "junit_junit",
+  group = "junit",
+  artifact = "junit",
+  version = "4.13.2",
+  # scope = "test"
+  resolve = "core",
+)
+
+

@@ -1,0 +1,4 @@
+junit_tests(
+    name="tests",
+    resolve="core",
+)

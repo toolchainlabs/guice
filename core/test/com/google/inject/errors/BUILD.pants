@@ -1,0 +1,8 @@
+java_sources(
+    resolve="core",
+)
+
+junit_tests(
+    name="tests",
+    resolve="core",
+)

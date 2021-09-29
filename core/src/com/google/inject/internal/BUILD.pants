@@ -1,0 +1,7 @@
+java_sources(
+    dependencies=[
+        "//core:com.google.guava_guava",
+        "//core:javax.inject_javax.inject",
+    ],
+    resolve="core",
+)
